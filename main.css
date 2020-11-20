@@ -1,0 +1,151 @@
+body {
+    background-image: url("images/relax.jpg");
+
+}
+
+.all-grid {
+    display: grid;
+    grid-template-columns: 50%;
+    background-color: blanchedalmond;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 60vh;
+
+}
+
+.player1-board {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.player2-board {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.div-tot-pts1,
+.div-tot-pts2 {
+    background-color: #98FB98;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.winner {
+    position: relative;
+    text-align: center;
+    height: 10vh;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom: 2px solid black;
+    color: #FFD700;
+    border-color: blanchedalmond;
+}
+
+.pl-btn {
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+
+.reload {
+    cursor: pointer;
+    color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    color: blanchedalmond;
+    cursor: default;
+}
+
+/*.rulesdiv {
+    margin-left: 20%;
+    margin-bottom: 30px;
+}*/
+
+.rulesMenu {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 70%;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+    width: auto;
+    height: auto;
+}
+
+.rules {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+}
+
+.hideRules {
+    border-radius: 5px;
+    margin-right: 70%;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    background-color: blue;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 75px;
+    height: 75px;
+    background-image: url(images/pigLogo.png);
+    border-radius: 50%;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: brown;
+    transform: translateX(-50%);
+    padding: 30px;
+    font-size: 36px;
+    height: 300px;
+    width: 300px;
+}
+
+#p1Name {
+    height: 30px;
+}
+
+#p2Name {
+    height: 30px;
+}

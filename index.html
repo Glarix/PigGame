@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig game?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="title">
+        <h1> The Pig Game </h1>
+    </div>
+
+    <div class="rulesdiv" id="rulesdiv">
+        <h2 class="rulesMenu" id="rulesMenu">How to play</h2>
+        <h3 class="rules" id="rules"></h3>
+        <h2 class="hideRules" id="hideRules"></h2>
+
+    </div>
+
+    <div class="all-grid" id="all">
+
+        <div class="player1-board" id="plr1-brd">
+            <div class="div-tot-pts1" id="div-tot-pts1">
+                <h2 class="tot-pts1" id="tot-pts1">Total points:</h2>
+                <h2 class="tot-pts1" id="t-pts1">0</h2>
+            </div>
+
+            <div class="div-rnd-pts1">
+                <h2 class="rnd-pts1" id="rnd-pts1">Round points:</h2>
+                <h2 class="rnd-pts1" id="r-pts1">0</h2>
+            </div>
+
+            <div class="roll1-pts">
+                <h2 class="roll1" id="roll1">You rolled:</h2>
+                <h1 class="roll1" id="roll-pts1">0</h1>
+            </div>
+            <div class="butt">
+                <button class="pl-btn" id="pl1-btn-roll">Roll Dice</button>
+                <button class="pl-btn" id="pl1-btn-take">Take Points</button>
+            </div>
+        </div>
+
+        <div class="player2-board" id="plr2-brd">
+            <div class="div-tot-pts2" id="div-tot-pts2">
+                <h2 class="tot-pts2" id="tot-pts2">Total points:</h2>
+                <h2 class="tot-pts2" id="t-pts2">0</h2>
+            </div>
+
+            <div class="div-rnd-pts2">
+                <h2 class="rnd-pts2" id="rnd-pts2">Round points:</h2>
+                <h2 class="rnd-pts2" id="r-pts2">0</h2>
+            </div>
+
+            <div class="roll2-pts">
+                <h2 class="roll2" id="roll2">You rolled:</h2>
+                <h1 class="roll2" id="roll-pts2">0</h1>
+            </div>
+
+            <div class="butt">
+                <button class="pl-btn" id="pl2-btn-roll" disabled>Roll Dice</button>
+                <button class="pl-btn" id="pl2-btn-take" disabled>Take Points</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="winner">
+        <h1 id="winner-txt"></h1>
+        <h2 class="reload" id="reload" onclick="location.reload()"></h2>
+    </div>
+    <div class="logo"></div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
